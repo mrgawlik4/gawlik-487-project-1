@@ -7,7 +7,7 @@
     <meta name="author" content="Michael Gawlik sourced from Bootstrap Starter Template">
     <meta name="generator" content="Jekyll v4.1.1">
     <link rel="icon" href="images/mglogosquare2.png" type="image/png" sizes="16x16">
-    <title>Visit Derry</title>
+    <title>MINI of Raleigh Dashboard</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/starter-template/">
 
@@ -15,44 +15,364 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed|Staatliches|Vollkorn&display=swap" rel="stylesheet">
   </head>
+  <main>
   <body>
-  <div id="container-whole">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Travel the World</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <div class="container-fluid row">
+        <div class="col-lg-9">
+          <p></p>
+        </div>
+        <div class="col-lg-3 header-items">
+          <div>
+            <a href="#">
+              <i class="sprite sprite-white_settings"></i>
+            </a>
+          </div>
+          <div class="header-borders">
+            <a href="#">
+              <i class="sprite sprite-help"></i>
+            </a>
+          </div>
+          <div class="header-borders">
+            <p>MINI of Raleigh</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="secondary container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6 icons-arrangement">
+          <ul class="icons-list">
+            <li>
+              <a href="#">
+                <i class="sprite sprite-dash_green"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="sprite sprite-people_green"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="sprite sprite-chat_green"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="sprite sprite-tag_green"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="sprite sprite-page_green"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="sprite sprite-bars_green"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+    <div class="main-content container">
+      <div class="green-header container row">
+        <div class="col-lg-9">
+          <h1>Dashboard</h1>
+        </div>
+        <div class="col-lg-3">
+          <div class="full-search-bar">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" aria-label="Search">
+              <button class="search-button" type="submit">
+                <i class="sprite sprite-magnifying_glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="outline-wrapper container">
+        <div class="wrapper-contents container-fluid">
+          <div class="announcement container-fluid row">
+            <div class="col-lg-2 sections announcement-title">Announcements</div>
+            <div class="col-lg-9 sections announcement-info">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</div>
+            <div class="col-lg-1 sections">
+              <div class="announcement-arrows-wrapper">
+                <ul class="announcement-arrows">
+                  <li>
+                    <button class="announcement-button">
+                      <a href="#"><i class="sprite sprite-left_announcement_arrow"></i></a>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="announcement-button">
+                      <a href="#"><i class="sprite sprite-right_announcement_arrow"></i></a>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="main-body container-fluid row">
+            <div class="column-1 col-lg-4 sections">
+              <div class="tasks sections">
+                <a href="#">
+                  <i class="sprite sprite-gray_settings"></i>
+                </a>
+                <h2>Tasks</h2>
+                <ul class="task-list">
+                  <li>
+                    <div class="task-box active">
+                      <i class="sprite sprite-gray_person"></i>
+                      <p>32</p>
+                    </div>
+                    <h3 class="task-item active" id="completed-task"><a href="#"><span>1</span>Welcome Contacts</a></h3>
+                  </li>
+                  <li>
+                    <div class="task-box">
+                      <i class="sprite sprite-blue_person"></i>
+                      <p>36</p>
+                    </div>
+                    <h3 class="task-item"><a href="#"><span>2</span>Provide Responses</a></h3>
+                  </li>
+                  <li>
+                    <div class="task-box">
+                      <i class="sprite sprite-blue_person"></i>
+                      <p>36</p>
+                    </div>
+                    <h3 class="task-item"><a href="#"><span>3</span>Review Activity</a></h3>
+                  </li>
+                  <li>
+                    <div class="task-box">
+                      <i class="sprite sprite-blue_person"></i>
+                      <p>3</p>
+                    </div>
+                    <h3 class="task-item"><a href="#"><span>4</span>Reach Out</a></h3>
+                  </li>
+                </ul>
+              </div>
+              <div class="recommendations sections-rec">
+                <h2>Recommendations</h2>
+                <ul class="rec-list">
+                  <li class="rec-list-item">
+                    <i class="sprite sprite-article"></i>
+                    <p class="rec-small">Article</p>
+                    <p class="rec-large">7 Steps to getting more Fans</p>
+                  </li>
+                  <li class="rec-list-item">
+                    <i class="sprite sprite-article"></i>
+                    <p class="rec-small">Article</p>
+                    <p class="rec-large">Increase traction with more interactions</p>
+                  </li>
+                  <li class="rec-list-item">
+                    <i class="sprite sprite-green_checkmark"></i>
+                    <p class="rec-small">Checklist</p>
+                    <p class="rec-large">Creating a Promotion</p>
+                  </li>
+                  <li class="rec-list-item">
+                    <i class="sprite sprite-lightbulb"></i>
+                    <p class="rec-small">Tip</p>
+                    <p class="rec-large">Share More</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="column-2 col-lg-8 sections">
+              <div class="analytics sections">
+                <h2>Analytics</h2>
+                <div class="row">
+                  <div class="col-md-10 analytics-border">
+                    <div class="dropdown">
+                      <button class="dropbtn">
+                        06/28/11 - 07/21/11
+                        <div class="dropdown-arrow">
+                          <i class="arrow down"></i>
+                        </div>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">06/04/11 - 06/27/11</a>
+                        <a href="#">05/10/11 - 06/03/11</a>
+                        <a href="#">04/16/11 - 05/09/11</a>
+                      </div>
+                    </div>
+                    <h5>Activity</h5>
+                    <img src="images/bar_chart.png" class="activities-chart" alt="Blue bar chart showing engagement rates">
+                  </div>
+                  <div class="col-md-2">
+                    <div class= "channels">
+                      <h5>Channels</h5>
+                      <img src="images/channels_chart.png" alt="Blue and green pie chart showing shares of channels">
+                    </div>
+                    <div class="referrals">
+                      <h5>Referrals</h5>
+                      <img src="images/referrals_chart.png" alt="Blue and green pie chart showing shares of referrals">
+                    </div>
+                  </div>
+                </div>
+                <div class="social-box-3">
+                  <ul class="social-list-3">
+                    <li class="social-item-3">
+                      <ul class="facebook-social-3">
+                        <li class="already-checked">
+                          <input type="checkbox">
+                        </li>
+                        <li>
+                        <p class="facebook-text-3">Facebook</p>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="social-item-3">
+                      <ul class="facebook-social-3">
+                        <li class="already-checked">
+                          <input type="checkbox">
+                        </li>
+                        <li>
+                        <p class="twitter-text-3">Twitter</p>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="social-item-3">
+                      <ul class="facebook-social-3">
+                        <li>
+                          <input type="checkbox">
+                        </li>
+                        <li>
+                        <p class="foresquare-text-3">Foresquare</p>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="social-item-3">
+                      <ul class="facebook-social-3">
+                        <li>
+                          <input type="checkbox">
+                        </li>
+                        <li>
+                        <p class="google-text-3">Google+</p>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="contacts sections">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="contact-box-left">
+                      <div class="contact-person-pic">
+                        <img src="images/green_contact.png" alt="Green outline of person">
+                      </div>
+                      <div class="blue-banner">
+                        <div class="blue-text">
+                          <i class="sprite sprite-ribbon_left"></i>
+                          <i class="sprite sprite-ribbon_right"></i>
+                          <h4>75 Contacts</h4>
+                          <h5>4 Influencers</h5>
+                        </div>
+                      </div>
+                      <img src="images/green_contact_chart.png" alt="Line chart with green line">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="contact-box-right">
+                      <div class="contact-person-pic">
+                        <img src="images/orange_contact.png" alt="Orange outline of person">
+                      </div>
+                      <div class="blue-banner">
+                        <div class="blue-text">
+                          <i class="sprite sprite-ribbon_left"></i>
+                          <i class="sprite sprite-ribbon_right"></i>
+                          <h4>17 Customers</h4>
+                          <h5>0 Influencers</h5>
+                        </div>
+                      </div>
+                      <img src="images/orange_contact_chart.png" alt="Line chart with orange line">
+                    </div>
+                  </div>
+                </div>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="http://mrgawlik.com/487assignment2/">Derry<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://alexandratamvakis.com/487assignment2/">Greece</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="http://www.maureenosei.com/travelsite/">Morocco</a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="http://alexandratamvakis.com/487assignment2/" tabindex="-1">Greece</a>
-      </li> -->
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Are you lost?" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-</div>
-
-  <!-- <div class="starter-template">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-  </div> -->
-
+              </div>
+              <div class="did-you-know sections">
+                <div class="did-you-know-inner">
+                  <a href="#"><i class="sprite sprite-left_dyk_arrow"></i></a>
+                  <a href="#"><i class="sprite sprite-right_dyk_arrow"></i></a>
+                  <div class="did-you-know-text">
+                    <h5>Did you know?</h5>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ads container row">
+            <div class="col-md-4">
+              <div class="ad-background">
+                <img src="images/green_ad.png" class="ad-green-picture" alt="Green speech bubbles in advertisement for Message Management">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="ad-background">
+                <img src="images/people_ad.png" class="ad-people-picture" alt="Group of young people stand side-by-side">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="ad-background">
+                <img src="images/orange_ad.png" class="ad-orange-picture" alt="Orange lines curving from lower right corner">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="footer container-fluid">
+          <div class="row container-fluid footer-contents">
+            <div class="footer-title footer-borders col-lg-3">
+              <ul class="footer-list">
+                <li class="list-borders gray-links">
+                  <a href="#">Tutorials</a>
+                </li>
+                <li class="list-borders gray-links">
+                  <a href="#">Support</a>
+                </li>
+                <li class="gray-links">
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-sources footer-borders col-lg-5">
+              <i class="blue-arrow up"></i>
+              <p><a href="#">Ariel Winter</a> likes your <a href="#">Win a Cooper Sweepstakes</a> Promotion</p>
+            </div>
+            <div class="footer-sources footer-borders col-lg-2">
+              <div class="logout-picture">
+                <i class="sprite sprite-profile_picture"></i>
+              </div>
+                <p><a href="#">Logout</a></p>
+            </div>
+            <div class="footer-sources footer-borders col-lg-1">
+              <a href="#"><i class="sprite sprite-facebook_icon"></i></a>
+              <a href="#"><i class="sprite sprite-twitter_icon"></i></a>
+              <a href="#"><i class="sprite sprite-checkmark_icon"></i></a>
+              <a href="#"><i class="sprite sprite-youtube_icon"></i></a>
+            </div>
+            <div class="footer-borders col-lg-1">
+            </div>
+            <!-- <div class="footer-sources footer-borders col-lg-1">
+              <p></p>
+            </div> -->
+          </div>
+        </div>
+  </body>
 </main><!-- /.container -->
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
