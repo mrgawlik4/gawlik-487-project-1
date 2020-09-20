@@ -1,2 +1,2 @@
 # gawlik-487-project-1
-Interactive, responsive dashboard built using HTML and CSS
+Interactive, responsive dashboard built using HTML, CSS and JavaScript
